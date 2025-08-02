@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stock Fair Value Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Stock Fair Value Calculator</h2>
+    <form id="valuationForm">
+      <div class="input-group">
+        <label for="pe">P/E Ratio:</label>
+        <input type="number" step="any" id="pe" name="pe" placeholder="e.g., 15.2" required />
+      </div>
+      <div class="input-group">
+        <label for="dividend">Dividend Yield (%):</label>
+        <input type="number" step="any" id="dividend" name="dividend" placeholder="e.g., 2.5" required />
+      </div>
+      <div class="input-group">
+        <label for="eps">Future EPS Growth (%):</label>
+        <input type="number" step="any" id="eps" name="eps" placeholder="e.g., 8.3" required />
+      </div>
+      <div class="input-group">
+        <label for="current">Current Stock Value ($):</label>
+        <input type="number" step="any" id="current" name="current" placeholder="e.g., 100" required />
+      </div>
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result-box"></div>
+
+    <p class="disclaimer">
+      ⚠️ This calculator is for demo and educational use only. Results are not financial advice.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
