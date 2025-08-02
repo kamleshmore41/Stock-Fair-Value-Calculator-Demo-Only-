@@ -1,2 +1,19 @@
-# Stock-Fair-Value-Calculator-Demo-Only-
-A simple web-based calculator to demonstrate how stock valuation can be estimated using P/E ratio, dividend yield, and future EPS growth. This is for educational and demonstration purposes only. Not financial advice.
+# 📈 Stock Fair Value Calculator (Demo)
+
+This is a basic educational tool that estimates whether a stock may be **undervalued**, **fair value**, or **overvalued** using:
+
+- P/E Ratio
+- Dividend Yield (%)
+- Future EPS Growth (%)
+- Current Stock Price
+
+### ⚠️ Disclaimer
+
+This calculator is for demonstration and educational use only.  
+**It does not provide financial advice.**  
+Do not rely on this tool for investment decisions.
+
+---
+
+### 💡 Example Formula
+
